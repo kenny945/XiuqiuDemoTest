@@ -56,7 +56,7 @@ public class OptionalPage extends BasePage{
         action.perform();
 
         find(text("删除")).click();
-        //message =  find(By.xpath("//*[@class='android.widget.Toast']")).getText();
+        message =  find(By.xpath("//*[@class='android.widget.Toast']")).getText();
     }
 
     public SearchPage gotoSearch(){
